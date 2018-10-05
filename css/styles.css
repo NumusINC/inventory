@@ -1,0 +1,42 @@
+body {
+  margin: auto;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+  max-width: 50%;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  padding: 18px 20px;
+  margin: 0;
+  font-size: 44px;
+  line-height: 1em;
+}
+form {
+  padding: 20px;  
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 6px;
+  font-size: 1.4em;
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  padding: 20px;
+  border-bottom: solid 1px #DDD;
+}
+button {
+  float: right;
+}
+.capture_form {
+  margin: auto;
+  max-width: 40%;
+}
