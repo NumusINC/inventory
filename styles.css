@@ -55,6 +55,26 @@ input:focus{
   color: #E1E5F2,0.6;
 }
 
+/* Table grid */
+.table-grid{
+  margin: auto;
+  width: 50%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table tr td, table tr th {
+  border-radius: 10%;
+  text-align: center;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+}
+
+table tr th{
+  color: #E1E5F2,0.5;
+}
 /* Buttons */
 .btn-add, .btn-clear{
   display: flex;
@@ -83,13 +103,6 @@ input:focus{
 }
 
 /* Footer area */
-footer{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 .footer_grid{
 	display: grid;
 	grid-template-columns: repeat(3,1fr);

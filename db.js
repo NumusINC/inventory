@@ -1,7 +1,7 @@
 // this wont execute in web worker
-//var connection = new JsStore.Instance();
+var connection = new JsStore.Instance();
 // this will execute in web worker -  jsstore strongly recommend to use web worker
-var connection = new JsStore.Instance(new Worker('jsstore.worker.min.js'));
+//var connection = new JsStore.Instance(new Worker('jsstore.worker.min.js'));
 var dbName = "Demo";
 
 $(document).ready(function() {
