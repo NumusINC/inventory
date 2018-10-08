@@ -76,7 +76,7 @@ table tr th{
   color: #E1E5F2,0.5;
 }
 /* Buttons */
-.btn-add, .btn-clear{
+.btn-add, .btn-clear, .btn-delete, .btn-edit, .btn-update, .btn-editCancel{
   display: flex;
   position: relative;
 	background-color: #143642;
@@ -91,7 +91,8 @@ table tr th{
   opacity: .5;
 }
 
-.btn-add:hover, .btn-clear:hover{
+.btn-add:hover, .btn-clear:hover, .btn-delete:hover, 
+.btn-edit:hover, .btn-update:hover, .btn-editCancel:hover{
 	padding: 15px 30px 15px 30px;
 	opacity: .9;
 }
